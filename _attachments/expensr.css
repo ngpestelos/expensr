@@ -1,0 +1,45 @@
+body {
+  overflow: auto;
+  overflow-y: scroll;
+}
+
+#header > div.container {
+  background-color: green;
+  padding-bottom: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#header > div.container > a {
+  margin-left: 10px;
+  color: white;
+}
+
+#content > div.container {
+  margin-top: 20px;
+}
+
+#input-form {
+  background-color: #ddd;
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+#input-form input {
+  padding: 4px;
+  font-size: 12px;
+}
+
+#detail {
+  width: 100%;
+}
+
+.savebutton {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  border-width: 1px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%, #a5c956));
+  border-radius: 5px;
+}
